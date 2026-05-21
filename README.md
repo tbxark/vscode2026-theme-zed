@@ -2,6 +2,8 @@
 
 VSCode 2026 is a Zed theme inspired by the familiar Visual Studio Code editing experience, with both dark and light variants.
 
+![](preview.png)
+
 ## Themes
 
 - VSCode 2026 Dark
@@ -14,7 +16,7 @@ Install the theme from Zed's extension marketplace once it is published.
 For local development, clone this repository into your Zed extensions directory:
 
 ```sh
-git clone https://github.com/tbxark/vscode2026-theme-zed.git ~/.config/zed/extensions/vscode2026
+git clone https://github.com/tbxark/vscode2026-theme-zed.git ~/.config/zed/extensions/vscode2026-theme
 ```
 
 Then restart Zed or reload extensions.

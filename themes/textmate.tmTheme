@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>comment</key>
+	<string>Creator: CodeRunner</string>
+	<key>name</key>
+	<string>VSCode 2026 Dark</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#121314</string>
+				<key>caret</key>
+				<string>#BBBEBF</string>
+				<key>foreground</key>
+				<string>#BBBEBF</string>
+				<key>invisibles</key>
+				<string>#8C8C8C66</string>
+				<key>lineHighlight</key>
+				<string>#242526</string>
+				<key>selection</key>
+				<string>#3994BC66</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Operators</string>
+			<key>scope</key>
+			<string>keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BBBEBF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>scope</key>
+			<string>comment, comment &gt; string, comment &gt; string &gt; punctuation.definition.string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8b949e</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String</string>
+			<key>scope</key>
+			<string>string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a5d6ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Number</string>
+			<key>scope</key>
+			<string>constant.numeric</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#79c0ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Built-in constant</string>
+			<key>scope</key>
+			<string>constant.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#79c0ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>User-defined constant</string>
+			<key>scope</key>
+			<string>constant.character, constant.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#79c0ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable</string>
+			<key>scope</key>
+			<string>variable.language, variable.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffa657</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>scope</key>
+			<string>keyword, constant.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff7b72</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Storage</string>
+			<key>scope</key>
+			<string>storage</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff7b72</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Class name</string>
+			<key>scope</key>
+			<string>entity.name.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7ee787</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Inherited class</string>
+			<key>scope</key>
+			<string>entity.other.inherited-class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7ee787</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function name</string>
+			<key>scope</key>
+			<string>entity.name.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d2a8ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function argument</string>
+			<key>scope</key>
+			<string>variable.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffa657</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tag name</string>
+			<key>scope</key>
+			<string>entity.name.tag, meta.tag punctuation, punctuation.definition.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7ee787</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tag attribute</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#79c0ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library function</string>
+			<key>scope</key>
+			<string>support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d2a8ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library constant</string>
+			<key>scope</key>
+			<string>support.constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#79c0ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library class/type</string>
+			<key>scope</key>
+			<string>support.type, support.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7ee787</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Embedded</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff7b72</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library variable</string>
+			<key>scope</key>
+			<string>support.other.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffa657</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Invalid</string>
+			<key>scope</key>
+			<string>invalid</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#f48771</string>
+				<key>foreground</key>
+				<string>#121314</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CodeRunner Console Informative Text</string>
+			<key>scope</key>
+			<string>console.warning, console.notice, console.debugger, meta.coderunner.console-informative</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8C8C8C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CodeRunner Console Error Text</string>
+			<key>scope</key>
+			<string>console.error, meta.coderunner.console-error</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f48771</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CodeRunner Debugger Prompt</string>
+			<key>scope</key>
+			<string>console.prompt, meta.coderunner.debugger-prompt</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#72C892</string>
+			</dict>
+		</dict>
+	</array>
+	<key>uuid</key>
+	<string>3D35C5DA-FC38-403A-B5D2-49FE711540D1</string>
+</dict>
+</plist>
